@@ -99,7 +99,8 @@ section.row {
 }
 
 section.column {
-    width: 400px;
+    display: inline-block;
+    width: 33%;
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;

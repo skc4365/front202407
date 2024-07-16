@@ -51,8 +51,8 @@ var a = 5, b = 6;
 console.log("1문항의 답은 ", a + b, "입니다");
 console.log("1문항의 답은 " + (a + b) + "입니다");
 
-d.getElementById("cal4_01").innerHTML 
-= "1문항의 답은 " + (a + b) + "입니다";
+d.getElementById("cal4_01").innerHTML
+    = "1문항의 답은 " + (a + b) + "입니다";
 
 // -------------------백틱사용법
 var num1 = 5, num2 = 6;

@@ -3,6 +3,10 @@ var result02 = document.getElementById("func2");
 var result03 = document.getElementById("func3");
 // var result04 = document.getElementById("func4");
 var result05 = document.getElementById("func5");
+// 해보자 교재110page
+var result06 = document.getElementById("func6");
+// 해보자 교재111page
+var result07 = document.getElementById("func7");
 
 var result;
 
@@ -58,11 +62,13 @@ function flower(flowerName) {
 // flower(flowerName)
 
 //-------------------  함수 return -------
+// 전역global
 result = 0;
 var first = 13;
 var last = 7;
 
 function all(a, b) {
+    // 함수내의 지역
     var sam = a + b;
 
     return sam;
@@ -70,6 +76,32 @@ function all(a, b) {
 
 var result = all(first, last);
 result05.innerHTML += "결과값: " + result;
+
+//-------------------  함수 110page -------
+// 스스로 해봅니다 ㅎ
+
+//--------  함수 111page 교재틀렸어요_아래처럼 수정요함----
+
+function love(){
+    // var를 생략하고 사용하면 전역변수가 된다.
+    str = "산";
+    var strInner = "강";
+    console.log("함수내에서 출력: ", str);
+    console.log("함수밖에서 출력: ", strInner);
+    
+    return strInner;
+}
+
+// 첫번째 함수 기본콜
+love();
+console.log("--------");
+
+// 두번째 함수 콜 + return
+// return된 지역변수strInner값을 recStr에 담는다.
+var recStr = love();
+console.log("나는 return된 값: ", recStr);
+
+
 
 
 

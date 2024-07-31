@@ -1,0 +1,9 @@
+/* 효과: 블루 글자색  */
+.blue{
+    color: blue;
+}
+/* 효과: 중요한 */
+.important{
+    font-weight: bold;
+    font-size: xx-large;
+}

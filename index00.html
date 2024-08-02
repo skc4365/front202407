@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리조트 예약사이트</title>
+    <link rel="stylesheet" href="./css/index00.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="logo"><a href="#"><img src="./images/home.png" alt="로고"></a> </div>
+            <div id="myDimension" class="myDimension">창넓이</div>
+            <div class="top">
+                <a id="login" class="login">로그인</a>
+                <a href="./admin00.html" target="_blank" id="admin" class="admin">관리자</a>
+            </div>
+        </div>
+        <div id="nav" class="nav">
+            <ul id="mainMenu" class="mainMenu">
+                <li id="btnDrop">
+                    <img src="./images/menu.png" alt="메뉴">
+                </li>
+                <li>
+                    <ul id="subMenu">
+                        <div id="result"></div>
+                        <li><a href="#">리조트 둘러보기</a></li>
+                        <li><a href="#">예약</a></li>
+                        <li><a href="#">게시판</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="section">
+            <div class="sec01">
+                <div class="view">
+                    <img src="./images/bg.jpg" alt="배경이미지">
+                </div>
+            </div>
+            <div class="sec02">
+                <!-- 예약 화면페이지 -->
+                <div id="title" class="title">
+                    <div id="reserv_tit1" class="reserv_tit1">호텔</div>
+                    <div id="reserv_tit2" class="reserv_tit2">레스토랑</div>
+                    <div id="reserv_tit3" class="reserv_tit3">영화</div>
+                </div>
+                <div class="box">
+                    <div id="reserv_box1" class="reserv_box1">
+                        <form action="#" class="frm">
+                            <label>예약을 원하는시는 날짜를 선택해주세요</label><br>
+                            날짜: <input type="datetime-local"><br>
+                            인원: <input type="number">
+                            <button>검색</button>
+                        </form>
+                        <hr>
+                        <div>
+                            <ul>
+                                <li>
+                                    <ul>
+                                        <li>A001호실</li>
+                                        <li>250,100원</li>
+                                        <li><button>예약하기</button></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li>A00222호실</li>
+                                        <li>250,200원</li>
+                                        <li><button>예약하기</button></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li>A003호실</li>
+                                        <li>250,300원</li>
+                                        <li><button>예약하기</button></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="reserv_box2" class="reserv_box2">
+                        <form action="#" class="frm">
+                            <label>예약을 원하는시는 날짜를 선택해주세요</label><br>
+                            날짜: <input type="datetime-local"><br>
+                            인원: <input type="number">
+                            <button>검색</button>
+                        </form>
+                        <hr>
+                        <div>
+                            <ul>
+                                <li>
+                                    <ul>
+                                        <li>A001호실</li>
+                                        <li>250,100원</li>
+                                        <li><button>예약하기</button></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li>A00222호실</li>
+                                        <li>250,200원</li>
+                                        <li><button>예약하기</button></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li>A003호실</li>
+                                        <li>250,300원</li>
+                                        <li><button>예약하기</button></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="reserv_box3" class="reserv_box3">
+                        <form action="#" class="frm">
+                            <label>예약을 원하는시는 날짜를 선택해주세요</label><br>
+                            날짜: <input type="datetime-local"><br>
+                            인원: <input type="number">
+                            <button>검색</button>
+                        </form>
+                        <hr>
+                        <div>
+                            <ul>
+                                <li>
+                                    <ul>
+                                        <li>A001호실</li>
+                                        <li>250,100원</li>
+                                        <li><button>예약하기</button></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li>A00222호실</li>
+                                        <li>250,200원</li>
+                                        <li><button>예약하기</button></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li>A003호실</li>
+                                        <li>250,300원</li>
+                                        <li><button>예약하기</button></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="split">
+                <div class="sec03">공지사항</div>
+                <div class="sec04">게시판 </div>
+            </div>
+            <div class="sec05">위치(지도)</div>
+        </div>
+        <div class="footer">
+            <div class="f_logo"><a href="#">로고</a> </div>
+            <div class="f_logo">회사주소</div>
+            <div class="f_logo">메일보내기</div>
+        </div>
+    </div>
+
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/media_query.js"></script>
+    <script src="./js/index00.js"></script>
+</body>
+
+</html>

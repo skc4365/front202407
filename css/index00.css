@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul>li {
+    list-style: none;
+}
+
+
+.wrap {
+    width: 700px;
+    height: 800px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    background-color: white;
+    color: rgb(14, 65, 50);
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+div {
+    border: 1px solid yellow;
+}
+
+/*----- 헤더 -----*/
+.header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.header .logo {
+    width: 10%;
+}
+
+.header>.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.header .top {
+
+    width: 20%;
+    margin: auto;
+    /* margin-right: 5PX; */
+    padding: 5px;
+    background-color: rgb(174, 154, 213);
+    text-align: center;
+
+}
+
+.header .myDimension {
+    width: 70%;
+}
+
+.top a {
+    display: contents;
+}
+
+.login:hover,
+.login:focus,
+.admin:hover,
+.admin:focus {
+
+    color: white;
+    cursor: pointer;
+}
+
+/*----- nav메뉴 -----*/
+.nav {
+    width: 100%;
+    height: 30px;
+}
+
+.nav .mainMenu {
+    position: relative;
+    width: 100%;
+
+    background-color: rgb(210, 208, 213);
+    color: white;
+    font-weight: bold;
+}
+
+.nav #btnDrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 30px;
+    background-color: rgb(223, 222, 226);
+    cursor: pointer;
+    z-index: 800;
+}
+
+.nav #btnDrop img {
+
+    width: 30px;
+    height: 30px;
+
+
+}
+
+.nav #subMenu {
+    position: absolute;
+    top: 30px;
+
+    /* padding-top: 10px; */
+
+    width: 100%;
+    height: 100px;
+
+    background-color: rgb(223, 222, 226);
+
+    display: none;
+
+}
+
+.nav #subMenu li>a {
+    display: block;
+    left: 30px;
+    line-height: 30px;
+
+    height: 30px;
+
+    color: rgb(92, 92, 107);
+}
+
+.nav #subMenu li>a:hover,
+li>a:focus {
+    background-color: white;
+    font-weight: 600;
+}
+
+
+
+/*----- 리조트 둘러보기 -----*/
+.sec01 {
+    width: 100%;
+    height: 100px;
+
+
+}
+
+.sec01 .view {
+    margin: 0 auto;
+
+
+}
+
+.sec01 .view>img {
+    /* width: inherit; */
+    height: 100px;
+
+}
+
+/*----- 예약화면 -----*/
+.sec02 {
+    width: 100%;
+    height: 300px;
+}
+
+.sec02 .title {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sec02>.title .reserv_tit1,
+.reserv_tit2,
+.reserv_tit3 {
+    padding: 10px 80px;
+    border-top: 1px solid rgb(187, 243, 187);
+    border-right: 1px solid rgb(187, 243, 187);
+    border-left: 1px solid rgb(187, 243, 187);
+    border-bottom: 0;
+
+    background-color: rgb(205, 222, 203);
+}
+
+.sec02 .box {
+    height: 85%;
+}
+
+.sec02 .box .frm {
+    /* border: 1px solid red; */
+    /* padding: 10px; */
+    padding: 5px 20px;
+}
+
+.sec02 .box .frm>* {
+    /* background-color: green; */
+    /* margin: 2px 10px 2px 10px; */
+    padding: 3px;
+}
+
+.sec02 .box>.reserv_box1 {
+    border: 1px solid rgb(187, 243, 187);
+    border-radius: 3%;
+    background-color: rgb(205, 222, 203);
+
+    margin-top: -1px;
+}
+.sec02 .box>.reserv_box2 {
+    border: 1px solid rgb(187, 243, 187);
+    border-radius: 3%;
+    background-color: rgb(205, 222, 203);
+
+    margin-top: -1px;
+}
+.sec02 .box>.reserv_box2 {
+    border: 1px solid rgb(187, 243, 187);
+    border-radius: 3%;
+    background-color: rgb(205, 222, 203);
+
+    margin-top: -1px;
+}
+
+.box ul>li>ul {
+    display: flex;
+}
+
+.box ul>li>ul>li {
+    width: 33.33%;
+    text-align: end;
+    margin: 10px;
+    border-bottom: 1px solid white;
+}
+
+.sec02 .box>.reserv_box2,
+.reserv_box3 {
+    display: none;
+}
+
+/* .split{
+    display: flex;
+    align-items: center;
+} */
+/*----- 공지사항 -----*/
+.sec03 {
+    margin: 0 auto;
+    width: 50%;
+    height: 150px;
+}
+
+/*----- 게시판  -----*/
+.sec04 {
+    margin: 0 auto;
+    width: 50%;
+    height: 150px;
+}
+
+/*----- 위치(지도) -----*/
+.sec05 {
+    margin: 0 auto;
+    width: 100%;
+    height: 150px;
+}
+
+/*----- footer -----*/
+.footer {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
